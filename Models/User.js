@@ -12,7 +12,6 @@ const UserSchema = new Schema({
     password: {
         type: String,
         required: true,
-        minlength: [3, '{PATH} cannot be shorter than {MINLENGTH} characters']
     }
 });
 
